@@ -1,0 +1,72 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); */
+
+:root {
+  --primary-color: #61DAFC;
+  --secondary-color: #1c3fa8;
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
+  --button-color: purple;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  background-color: black !important;
+  color: #fff !important;
+}
+#darbon{
+  font-size: 28px !important;
+}
+.nav_title, .nav_links{
+  font-size: 20px !important;
+}
+.navbar-toggler-icon{
+  background-image: url("./assets/hamburger.jpeg") !important;
+}
+.sign_in button{
+  background-color: var(--button-color) !important;
+  border-radius: 10px !important;
+  padding: 10px 30px !important;
+  border: 1px solid var(--button-color) !important;
+}
+.section_title{
+  margin-top: 100px !important;
+}
+.section_title span {
+  display: inline-block;
+  font-size: 3rem !important;
+  line-height: 4rem !important;
+  font-weight: bold !important;
+  margin-bottom: 20px !important;
+}
+.section_title p {
+  color: gray !important;
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+  margin-bottom: 20px !important;
+}
+.section_title button {
+  background-color: var(--button-color) !important;
+  border-radius: 10px !important;
+  padding: 10px 30px !important;
+  border: 1px solid var(--button-color) !important;
+  text-transform: uppercase !important;
+}
+.image{
+  width: 100% !important;
+}
+.choose_us{
+  width: 500px !important;
+  margin: 0 auto !important;
+}
+.choose_us_images{
+  display: block !important;
+  width: 50% !important;
+  height: 50% !important;
+  border-radius: 50% !important;
+  margin-left: auto;
+  margin-right: auto;
+
+}
