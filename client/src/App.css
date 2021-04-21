@@ -22,6 +22,9 @@
 .nav_title, .nav_links{
   font-size: 20px !important;
 }
+.links{
+  padding: 20px 10px !important;
+}
 .navbar-toggler-icon{
   background-image: url("./assets/hamburger.jpeg") !important;
 }
@@ -31,42 +34,127 @@
   padding: 10px 30px !important;
   border: 1px solid var(--button-color) !important;
 }
-.section_title{
+.first_section_title{
   margin-top: 100px !important;
 }
-.section_title span {
+.first_section_title span {
   display: inline-block;
   font-size: 3rem !important;
   line-height: 4rem !important;
   font-weight: bold !important;
   margin-bottom: 20px !important;
 }
-.section_title p {
+.first_section_title p {
   color: gray !important;
   font-size: 1rem !important;
   line-height: 1.5rem !important;
   margin-bottom: 20px !important;
 }
-.section_title button {
+.first_section_title button {
   background-color: var(--button-color) !important;
   border-radius: 10px !important;
   padding: 10px 30px !important;
   border: 1px solid var(--button-color) !important;
   text-transform: uppercase !important;
 }
-.image{
-  width: 100% !important;
+.first_section_image{
+  width: 120% !important;
+  height: 90% !important;
 }
 .choose_us{
   width: 500px !important;
   margin: 0 auto !important;
 }
+.choose_us p, .row_p p {
+  color: gray !important;
+}
 .choose_us_images{
   display: block !important;
-  width: 50% !important;
-  height: 50% !important;
+  width: 80% !important;
+  height: 60% !important;
   border-radius: 50% !important;
   margin-left: auto;
   margin-right: auto;
-
+}
+.row_p{
+  margin-top: 50px !important;
+}
+.third_section_title{
+  margin-top: 100px !important;
+}
+.third_section_title span{
+  display: block !important;
+  background-color: rgb(206, 118, 206) !important;
+  border-radius: 50px !important;
+  width: 40% !important;
+  padding: 10px !important;
+  text-align: center;
+  color: black !important;
+}
+.third_section_title #bank-with-peace-of-mind {
+  color: #fff !important;
+  font-size: 3rem !important;
+  line-height: 3.5rem !important;
+  font-weight: bold !important;
+  width: 100% !important;
+}
+.third_section_title #enjoy-cheaper-transactions{
+  color: gray !important;
+  font-size: 20px !important;
+  line-height: 1.6em !important;
+}
+.third_section_title button{
+  background-color: var(--button-color) !important;
+  border-radius: 10px !important;
+  padding: 10px 30px !important;
+  border: 1px solid var(--button-color) !important;
+  text-transform: uppercase !important;
+  margin-left: -15px !important;
+}
+.fa-chevron-circle-right{
+  background-color: purple !important;
+}
+.third_section_image{
+  width: 100% !important;
+}
+.fourth_section_title{
+  margin-top: 100px !important;
+}
+.fourth_section_title span{
+  display: block !important;
+  background-color: rgb(206, 118, 206) !important;
+  border-radius: 50px !important;
+  width: 40% !important;
+  padding: 10px !important;
+  text-align: center;
+  color: black !important;
+}
+.fourth_section_title #access-to-credit {
+  color: #fff !important;
+  font-size: 2rem !important;
+  line-height: 3.5rem !important;
+  font-weight: bold !important;
+  width: 100% !important;
+}
+.fourth_section_title #receive-funds{
+  color: gray !important;
+  font-size: 20px !important;
+  line-height: 1.6em !important;
+}
+.fourth_section_title button{
+  background-color: var(--button-color) !important;
+  border-radius: 10px !important;
+  padding: 10px 30px !important;
+  border: 1px solid var(--button-color) !important;
+  text-transform: uppercase !important;
+  margin-left: -15px !important;
+  margin-bottom: 25px !important;
+}
+.fa-chevron-circle-right{
+  background-color: purple !important;
+}
+.fourth_section_image{
+  display: inline-block !important;
+  width: 120% !important;
+  height: 80% !important;
 }

@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header'
-import Home from './components/Home'
-import About from './components/About'
-import Blog from './components/Blog'
-import Login from './components/Login'
-import Register from './components/Register'
-import Footer from './components/Footer'
+import Header from './components/Layouts/Header'
+import Home from './components/Pages/Home'
+import About from './components/Pages/About'
+import Blog from './components/Pages/Blog'
+import Login from './components/Auth/Login'
+import Register from './components/Auth/Register'
+import Footer from './components/Layouts/Footer'
 import { Container } from 'react-bootstrap'
 
 const App = () => {
