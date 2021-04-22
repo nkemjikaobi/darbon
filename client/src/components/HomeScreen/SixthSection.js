@@ -4,13 +4,12 @@ import { LinkContainer } from 'react-router-bootstrap'
 
 const SixthSection = () => {
     return (
-        <>
-            <Container fluid >
-                <Row>
+        <div >
+            <Container fluid id="sixth_section" >
                     <span>A digital bank made just for you</span>
                     <p>Open a new Carbon bank account from your phone or computer and follow the simple on-screen steps to register for an account in minutes.</p>
                     <Row>
-                        <Col md={3}>
+                        <Col md={3} className="sixth_section_buttons">
                             <button>
                                 <div className="d-flex">
                                     <i className="fab fa-google-play"></i>
@@ -21,7 +20,7 @@ const SixthSection = () => {
                                 </div>
                             </button>
                         </Col>
-                        <Col md={3}>
+                        <Col md={3} className="sixth_section_buttons">
                             <button>
                                 <div className="d-flex">
                                     <i className="fab fa-apple"></i>
@@ -32,7 +31,7 @@ const SixthSection = () => {
                                 </div>
                             </button>
                         </Col>
-                        <Col md={3}>
+                        <Col md={3} className="sixth_section_buttons">
                             <button>
                                 <div className="d-flex">
                                     <i className="fas fa-mobile"></i>
@@ -43,7 +42,7 @@ const SixthSection = () => {
                                 </div>
                             </button>
                         </Col>
-                        <Col md={3}>
+                        <Col md={3} className="sixth_section_buttons">
                             <button>
                                 <div className="d-flex">
                                     <i className="fab fa-chrome"></i>
@@ -55,9 +54,8 @@ const SixthSection = () => {
                             </button>
                         </Col>
                     </Row>
-                </Row>
             </Container> 
-        </>
+        </div>
     )
 }
 

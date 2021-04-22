@@ -158,10 +158,128 @@
   width: 120% !important;
   height: 80% !important;
 }
+#sixth_section{
+  background-color: purple !important;
+  margin-left: -80px !important;
+  width: 100vw !important;
+  height: 40vh !important;
+  padding: 30px 240px !important;
+}
+#sixth_section span {
+  display: inline-block !important;
+  font-size: 2rem !important;
+  margin-top: 10px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+}
+#sixth_section p, #sixth_section span{
+  background-color: purple !important;
+}
+.sixth_section_buttons button{
+  background-color: purple !important;
+  height: 10px !important;
+}
 .footer .links{
   color: gray !important;
   margin-bottom: -15px !important;
 }
 .footer_title{
   margin-left: 10px !important;
+}
+
+@media(max-width: 500px) {
+
+  #darbon{
+    font-size: 22px !important;
+  }
+  .nav_title, .nav_links{
+    font-size: 16px !important;
+  }
+  .first_section_title span {
+    font-size: 2rem !important;
+    line-height: 3rem !important;
+  }
+
+  .first_section_title button {
+    margin-left: -10px !important;
+  }
+  .first_section_image{
+    width: 90% !important;
+    height: 90% !important;
+  }
+  .choose_us{
+    width: 100% !important;
+    margin: auto auto !important;
+  }
+  .choose_us h1, .row_p h1 {
+    font-size: 30px !important;
+  }
+  .choose_us p, .row_p p {
+    font-size: 16px !important;
+  }
+  .choose_us_images{
+    width: 60% !important;
+    height: 50% !important;
+    border-radius: 50% !important;
+  }
+
+  .third_section_title{
+    margin-top: 50px !important;
+  }
+  .third_section_title span{
+    width: 50% !important;
+    padding: 10px 5px !important;
+  }
+  .third_section_title #bank-with-peace-of-mind {
+    font-size: 2rem !important;
+    line-height: 2.5rem !important;
+    width: 70% !important;
+  }
+  .third_section_title #enjoy-cheaper-transactions{
+    font-size: 16px !important;
+    line-height: 1.6em !important;
+  }
+  .third_section_title button{
+    padding: 10px 20px !important;
+    margin-left: -15px !important;
+  }
+ 
+  .third_section_image{
+    width: 90% !important;
+    margin-top: -50px !important;
+  }
+  .fourth_section_title{
+    margin-top: 50px !important;
+  }
+  .fourth_section_title span{
+    width: 50% !important;
+    padding: 10px 5px !important;
+  }
+  .fourth_section_title #access-to-credit {
+    font-size: 2rem !important;
+    line-height: 2.5rem !important;
+    width: 90% !important;
+  }
+  .fourth_section_title #receive-funds{
+    font-size: 16px !important;
+    line-height: 1.6em !important;
+  }
+  .fourth_section_title button{
+    padding: 10px 20px !important;
+    margin-left: -15px !important;
+  }
+  .fa-chevron-circle-right{
+    background-color: purple !important;
+  }
+  .fourth_section_image{
+    display: inline-block !important;
+    width: 90% !important;
+    height: 80% !important;
+  }
+  /* .links{
+    margin-bottom: 115px !important;
+  } */
+  /* #darbon_footer{
+    margin-top: 120px !important;
+  } */
 }

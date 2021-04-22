@@ -4,7 +4,7 @@ import WhyChooseUs from '../HomeScreen/WhyChooseUs'
 import ThirdSection from '../HomeScreen/ThirdSection'
 import FourthSection from '../HomeScreen/FourthSection'
 import FifthSection from '../HomeScreen/FifthSection'
-import SixthSection from '../HomeScreen/SixthSection'
+// import SixthSection from '../HomeScreen/SixthSection'
 
 const Home = () => {
     return (
@@ -14,7 +14,7 @@ const Home = () => {
           <ThirdSection />
           <FourthSection />
           <FifthSection />
-          <SixthSection />
+          {/* <SixthSection /> */}
         </>
     )
 }

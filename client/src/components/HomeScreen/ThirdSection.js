@@ -8,10 +8,10 @@ const ThirdSection = () => {
         <>
         <Container fluid className="mt-5">
             <Row>
-                <Col md={7} xs={12}>
+                <Col md={7} sm={12} xs={12}>
                     <img src={wavyBus} alt="" className="third_section_image" />
                 </Col>
-                <Col md={5} xs={12} className="third_section_title">
+                <Col md={5} sm={12} xs={12} className="third_section_title">
                     <span className="mb-3">Darbon account</span>
                     <p id="bank-with-peace-of-mind">Bank with peace of mind</p>
                     <p id="enjoy-cheaper-transactions">Your Darbon account allows you enjoy cheaper transactions, zero account fees, and an annual interest of 2% per annum.</p>

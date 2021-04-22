@@ -17,7 +17,7 @@ const Footer = () => {
                             height="50"
                             className="d-inline-block align-top"
                             />{' '}
-                                <span id='darbon'>Darbon</span>
+                                <span id='darbon_footer'>Darbon</span>
                             </Navbar.Brand>
                         </LinkContainer>
                     </Col>
