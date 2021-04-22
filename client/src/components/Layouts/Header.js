@@ -4,8 +4,8 @@ import {  Nav, Navbar, Container } from 'react-bootstrap'
 const Header = () => {
     return (
         <header className="mt-4 nav_title">
-              <Navbar expand="lg" collapseOnSelect>
-                <Container>
+              <Navbar expand="lg" fixed="top" collapseOnSelect>
+                <Container >
                     <LinkContainer to='/'>
                         <Navbar.Brand >
                         <img

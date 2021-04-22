@@ -158,3 +158,10 @@
   width: 120% !important;
   height: 80% !important;
 }
+.footer .links{
+  color: gray !important;
+  margin-bottom: -15px !important;
+}
+.footer_title{
+  margin-left: 10px !important;
+}
