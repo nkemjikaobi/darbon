@@ -16,6 +16,8 @@
   background-color: black !important;
   color: #fff !important;
 }
+
+/* Home page */
 #darbon{
   font-size: 28px !important;
 }
@@ -179,14 +181,54 @@
   background-color: purple !important;
   height: 10px !important;
 }
-.footer .links{
+.footer .darbon_links{
   color: gray !important;
   margin-bottom: -15px !important;
+  margin-left: -6px !important;
 }
 .footer_title{
   margin-left: 10px !important;
+  text-transform: uppercase !important;
 }
 
+/* About Page */
+#about{
+  /* width: 500px !important; */
+  margin: 200px auto 80px auto !important;
+}
+.about_main_title{
+  display: inline-block !important;
+  font-size: 5rem !important;
+  line-height: 7rem !important;
+  font-weight: bold !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+.about_image{
+  display: block !important;
+  width: 50% !important;
+  margin: 0 auto !important;
+}
+.about_subtitles{
+  display: inline-block !important;
+  font-size: 3rem !important;
+  line-height: 5rem !important;
+  font-weight: bold !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+#about_p_first{
+  width: 70% !important;
+  margin: 0px auto 50px auto !important;
+  color: gray !important;
+}
+#about_p_second{
+  width: 70% !important;
+  margin: 0 auto !important;
+  color: gray !important;
+}
+
+/* Mobile */
 @media(max-width: 500px) {
 
   #darbon{
@@ -276,10 +318,13 @@
     width: 90% !important;
     height: 80% !important;
   }
-  /* .links{
-    margin-bottom: 115px !important;
-  } */
-  /* #darbon_footer{
-    margin-top: 120px !important;
-  } */
+  .darbon_footer{
+    margin-top: 15px !important;
+  }
+  .darbon_footer :last-child{
+    margin-bottom: 20px !important;
+  }
+  .footer{
+    margin-top: 50px !important;
+  }
 }

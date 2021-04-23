@@ -22,49 +22,49 @@ const Footer = () => {
                         </LinkContainer>
                     </Col>
 
-                    <Col md={2} xs={12}>
+                    <Col md={2} xs={12} className="darbon_footer">
                         <span className="footer_title">Features</span>
                         <LinkContainer to='/about'>
-                                <Nav.Link className="mr-3 links">Darbon account</Nav.Link>
+                                <Nav.Link className=" darbon_links">Darbon account</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/about'>
-                                <Nav.Link className="mr- links">Payments</Nav.Link>
+                                <Nav.Link className="mr-3 darbon_links">Payments</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/about'>
-                                <Nav.Link className="mr-3 links">Cards</Nav.Link>
+                                <Nav.Link className="mr-3 darbon_links">Cards</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/about'>
-                                <Nav.Link className="mr-3 links">Investments</Nav.Link>
+                                <Nav.Link className="mr-3 darbon_links">Investments</Nav.Link>
                         </LinkContainer>
                     </Col>
-                    <Col md={2} xs={12}>
+                    <Col md={2} xs={12} className="darbon_footer">
                         <span className="footer_title">Company</span>
                         <LinkContainer to='/about'>
-                                <Nav.Link className="mr-3 links">About</Nav.Link>
+                                <Nav.Link className="mr-3 darbon_links">About</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to='/about'>
-                                <Nav.Link className="mr-3 links">Careers</Nav.Link>
+                        <LinkContainer to='/careers'>
+                                <Nav.Link className="mr-3 darbon_links">Careers</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to='/about'>
-                                <Nav.Link className="mr-3 links">Blog</Nav.Link>
+                        <LinkContainer to='/blog'>
+                                <Nav.Link className="mr-3 darbon_links">Blog</Nav.Link>
                         </LinkContainer>
                     </Col>
-                    <Col md={2} xs={12}>
+                    <Col md={2} xs={12} className="darbon_footer">
                         <span className="footer_title">Help</span>
                         <LinkContainer to='/about'>
-                                <Nav.Link className="mr-3 links">Contact</Nav.Link>
+                                <Nav.Link className="mr-3 darbon_links">Contact</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/about'>
-                                <Nav.Link className="mr-3 links">Community</Nav.Link>
+                                <Nav.Link className="mr-3 darbon_links">Community</Nav.Link>
                         </LinkContainer>
                     </Col>
-                    <Col md={2} xs={12}>
+                    <Col md={2} xs={12} className="darbon_footer">
                         <span className="footer_title">Legal</span>
                         <LinkContainer to='/about'>
-                                <Nav.Link className="mr-3 links">Privacy Policy</Nav.Link>
+                                <Nav.Link className="mr-3 darbon_links">Privacy Policy</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/about'>
-                                <Nav.Link className="mr-3 links">Terms and Conditions</Nav.Link>
+                                <Nav.Link className="mr-3 darbon_links">Terms and Conditions</Nav.Link>
                         </LinkContainer>
                     </Col>
                    
