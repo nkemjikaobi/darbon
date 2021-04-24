@@ -39,6 +39,9 @@ const Footer = () => {
                     </Col>
                     <Col md={2} xs={12} className="darbon_footer">
                         <span className="footer_title">Company</span>
+                        <LinkContainer to='/'>
+                                <Nav.Link className="mr-3 darbon_links">Home</Nav.Link>
+                        </LinkContainer>
                         <LinkContainer to='/about'>
                                 <Nav.Link className="mr-3 darbon_links">About</Nav.Link>
                         </LinkContainer>

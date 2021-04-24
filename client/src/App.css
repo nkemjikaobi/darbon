@@ -191,6 +191,7 @@
   text-transform: uppercase !important;
 }
 
+
 /* About Page */
 #about{
   /* width: 500px !important; */
@@ -227,12 +228,55 @@
   margin: 0 auto !important;
   color: gray !important;
 }
+#founders_section{
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+.founders_item{
+  display: flex !important;
+  width: 80% !important;
+  margin: 0 auto !important;
+}
+.founder_image{
+  border: 1px solid white !important;
+  border-radius: 20px !important;
+  width: 20% !important;
+  background-image: url();
+  margin-right: 50px !important;
+}
+.founders_body{
+  display: flex !important;
+  flex-direction: column !important;
+  width: 70% !important;
+}
+.founder_name{
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+}
+.founder_description{
+  color: gray !important;
+}
+.description{
+  color: gray !important;
+}
+.fa-linkedin{
+  font-size: 2.5rem !important;
+  color: #0072b1 !important;
+}
+
 
 /* Mobile */
 @media(max-width: 500px) {
 
+  /* Home Page */
   #darbon{
     font-size: 22px !important;
+  }
+  .links{
+    margin-bottom: -25px !important;
+  }
+  .links_about{
+    margin-bottom: -2px !important;
   }
   .nav_title, .nav_links{
     font-size: 16px !important;
@@ -326,5 +370,71 @@
   }
   .footer{
     margin-top: 50px !important;
+  }
+
+  /* About Page */
+  #about{
+    margin: 100px auto 80px auto !important;
+  }
+  .about_main_title{
+    font-size: 2rem !important;
+    line-height: 3rem !important;
+  }
+  .about_image{
+    width: 90% !important;
+  }
+  .about_subtitles{
+    font-size: 2rem !important;
+    line-height: 3rem !important;
+    margin-bottom: 35px !important;
+  }
+  #about_p_first{
+    width: 80% !important;
+    margin: 0px auto 50px auto !important;
+    text-align: center !important;
+  }
+  #about_p_second{
+    width: 90% !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+  .founders_item{
+    display: flex !important;
+    flex-direction: column !important;
+    width: 80% !important;
+    margin: 0 auto !important;
+  }
+  .founder_image{
+    border: 1px solid white !important;
+    border-radius: 20px !important;
+    width: 100% !important;
+    background-image: url();
+    margin-right: 50px !important;
+  }
+  .founders_body{
+    width: 90% !important;
+    margin: 0 auto !important;
+  }
+  .founder_name{
+    font-size: 1.5rem !important;
+    text-align: center !important;
+  }
+  .founder_description{
+    text-align: center !important;
+    font-size: 1rem !important;
+  }
+  .description{
+    text-align: center !important;
+    font-size: 1rem !important;
+  }
+  .founder_image{
+    height: 300px !important;
+    margin-bottom: 10px !important;
+  }
+  .fa-linkedin{
+    font-size: 2.5rem !important;
+    text-align: center !important;
+    width: 90% !important;
+    margin: 0 auto !important;
   }
 }
